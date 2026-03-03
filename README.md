@@ -4,7 +4,18 @@
 
 ### Step 1: Setup the Instructions
 
-Add information about the initial prompt you use to seed the copilot-instructions.md file here.
+I want to be able to run the sample that is located in this GitHub repo folder - https://github.com/microsoft/Agents/tree/main/samples/python/copilotstudio-client. Can you download just the folder mentioned and put it into a "Sample" folder within this repo so that I can run it here through the terminal?
+
+```
+cd Sample
+
+python3 -m venv ./.venv
+source ./.venv/bin/activate
+pip install -r requirements.txt
+
+python3 -m src.main
+
+```
 
 ### Step 2: Launch GitHub Copilot
 

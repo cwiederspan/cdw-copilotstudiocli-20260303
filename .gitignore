@@ -343,6 +343,33 @@ paket-files/
 **/__pycache__/
 *.pyc
 
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python distribution / packaging
+*.egg
+*.egg-info/
+dist/
+*.whl
+
+# Python installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python type checker cache
+.mypy_cache/
+.pytype/
+
+# Pytest
+.pytest_cache/
+
+# Python coverage
+htmlcov/
+.coverage
+.coverage.*
+
 # Cake - Uncomment if you are using it
 #tools/**
 #!tools/packages.config
